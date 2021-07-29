@@ -77,7 +77,10 @@ const App = () => {
     setGood(good + 1)
     setAll(all + 1)
     setScore(score + 1)
+
   }
+
+  console.log(good)
 
   const handleNeutral = () => {
     setNeutral(neutral + 1)
